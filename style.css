@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(0,0,0,0.3);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #ff7b54;
+  color: white;
+  cursor: pointer;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.countdown div {
+  margin: 10px;
+}
+
+.countdown span {
+  font-size: 2rem;
+  font-weight: bold;
+}
